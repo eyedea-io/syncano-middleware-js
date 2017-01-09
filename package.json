@@ -1,0 +1,44 @@
+{
+  "name": "syncano-middleware",
+  "version": "0.1.0",
+  "description": "Middleware provide a convenient mechanism for filtering HTTP requests entering your socket.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && mocha src",
+    "test:watch": "mocha src --watch",
+    "test:coverage": "nyc npm test && nyc report --reporter=text-lcov > coverage.lcov && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyedea-io/syncano-middleware.git"
+  },
+  "keywords": [
+    "syncano",
+    "syncano-middleware"
+  ],
+  "bugs": {
+    "url": "https://github.com/eyedea-io/syncano-middleware/issues"
+  },
+  "homepage": "https://github.com/eyedea-io/syncano-middleware#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "codecov": "^1.0.1",
+    "mocha": "^3.2.0",
+    "nyc": "^10.0.0",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": true,
+    "module": true,
+    "envs": [
+      "browser"
+    ],
+    "globals": [
+      "it",
+      "describe"
+    ]
+  }
+}
