@@ -1,4 +1,4 @@
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)   [![CircleCI](https://circleci.com/gh/eyedea-io/syncano-middleware-js.svg?style=shield&circle-token=405f648269a98f78158a497f81839edef3fa8a73)](https://circleci.com/gh/Syncano/syncano-client-js/tree/master)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)   [![CircleCI](https://circleci.com/gh/eyedea-io/syncano-middleware-js.svg?style=shield&circle-token=405f648269a98f78158a497f81839edef3fa8a73)](https://circleci.com/gh/eyedea-io/syncano-middleware-js/tree/master)
 [![codecov](https://codecov.io/gh/eyedea-io/syncano-middleware-js/branch/master/graph/badge.svg)](https://codecov.io/gh/eyedea-io/syncano-middleware-js)
 
 # Syncano Middleware
