@@ -1,6 +1,6 @@
 {
   "name": "syncano-middleware",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Middleware provide a convenient mechanism for filtering HTTP requests entering your socket.",
   "license": "MIT",
   "main": "index.js",
