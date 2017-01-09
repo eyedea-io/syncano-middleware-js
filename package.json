@@ -11,16 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eyedea-io/syncano-middleware.git"
+    "url": "git+https://github.com/eyedea-io/syncano-middleware-js.git"
   },
   "keywords": [
     "syncano",
     "syncano-middleware"
   ],
   "bugs": {
-    "url": "https://github.com/eyedea-io/syncano-middleware/issues"
+    "url": "https://github.com/eyedea-io/syncano-middleware-js/issues"
   },
-  "homepage": "https://github.com/eyedea-io/syncano-middleware#readme",
+  "homepage": "https://github.com/eyedea-io/syncano-middleware-js#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
@@ -34,11 +34,8 @@
     "space": true,
     "module": true,
     "envs": [
-      "browser"
-    ],
-    "globals": [
-      "it",
-      "describe"
+      "browser",
+      "mocha"
     ]
   }
 }
