@@ -32,7 +32,7 @@ const steps = {
   })
 }
 
-run([ steps.auth, steps.validate ])
+middleware([ steps.auth, steps.validate ])
   .then(data => {
     // All middlewares passed.
     // Now you have an authenticated user and validated form.
