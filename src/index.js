@@ -1,19 +1,23 @@
-module.exports = function (middlewares = []) {
-  return new Promise((resolve, reject) => {
-    let resolves = []
-    let i = 0;
+'use strict'
+
+module.exports = function (middlewares) {
+  middlewares = middlewares || []
+
+  return new Promise(function (resolve, reject) {
+    var resolves = []
+    var i = 0;
 
     (function next() {
-      const middleware = middlewares[i++]
+      var middleware = middlewares[i++]
 
       if (middleware) {
-        middleware()
-          .then(data => {
-            resolves.push(data)
+        middleware().then(function (data) {
+          resolves.push(data)
 
-            next()
-          })
-          .catch(err => reject(err))
+          next()
+        }).catch(function (err) {
+          reject(err)
+        })
       } else {
         resolve(resolves)
       }
