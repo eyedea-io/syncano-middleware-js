@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "Middleware provide a convenient mechanism for filtering HTTP requests entering your socket.",
   "license": "MIT",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "xo && mocha src",
     "test:watch": "mocha src --watch",
