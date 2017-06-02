@@ -3,6 +3,8 @@
 
 # Syncano Middleware
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eyedea-io/syncano-middleware-js.svg)](https://greenkeeper.io/)
+
 Syncano middleware provide a convenient mechanism for filtering HTTP requests entering your socket. For example validate passed parameters, check if user is authenticated, assign default parameter values and many more.
 
 For full list of middlewares check [NPM](https://www.npmjs.com/browse/keyword/syncano-middleware).

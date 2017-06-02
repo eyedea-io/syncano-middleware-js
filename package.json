@@ -22,12 +22,12 @@
   },
   "homepage": "https://github.com/eyedea-io/syncano-middleware-js#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.0.1",
     "chai-as-promised": "^6.0.0",
-    "codecov": "^1.0.1",
+    "codecov": "^2.2.0",
     "mocha": "^3.2.0",
-    "nyc": "^10.0.0",
-    "xo": "^0.17.1"
+    "nyc": "^11.0.1",
+    "xo": "^0.18.2"
   },
   "xo": {
     "semicolon": false,
